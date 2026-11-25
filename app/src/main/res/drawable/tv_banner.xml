@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="320dp"
+    android:height="180dp"
+    android:viewportWidth="320"
+    android:viewportHeight="180">
+
+    <path android:pathData="M0,0h320v180h-320z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="0"
+                android:startY="0"
+                android:endX="320"
+                android:endY="180"
+                android:type="linear">
+                <item android:offset="0" android:color="#090612" />
+                <item android:offset="0.55" android:color="#120A24" />
+                <item android:offset="1" android:color="#1C0E38" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <path android:pathData="M98,64m-85,0a85,85 0,1 1,170 0a85,85 0,1 1,-170 0">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:centerX="98"
+                android:centerY="64"
+                android:gradientRadius="95"
+                android:type="radial">
+                <item android:offset="0" android:color="#66FF2E93" />
+                <item android:offset="1" android:color="#00090612" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <path android:pathData="M232,126m-85,0a85,85 0,1 1,170 0a85,85 0,1 1,-170 0">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:centerX="232"
+                android:centerY="126"
+                android:gradientRadius="95"
+                android:type="radial">
+                <item android:offset="0" android:color="#5500F0FF" />
+                <item android:offset="1" android:color="#00090612" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Neon frosted TV bezel -->
+    <path
+        android:pathData="M112,46 L208,46 C214.6,46 220,51.4 220,58 L220,108 C220,114.6 214.6,120 208,120 L112,120 C105.4,120 100,114.6 100,108 L100,58 C100,51.4 105.4,46 112,46 Z"
+        android:fillColor="#24FF2E93"
+        android:strokeWidth="4">
+        <aapt:attr name="android:strokeColor">
+            <gradient
+                android:startX="100"
+                android:startY="46"
+                android:endX="220"
+                android:endY="120"
+                android:type="linear">
+                <item android:offset="0" android:color="#FF2E93" />
+                <item android:offset="1" android:color="#00F0FF" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Neon horizon stand -->
+    <path
+        android:pathData="M138,133 L182,133"
+        android:strokeWidth="5"
+        android:strokeLineCap="round">
+        <aapt:attr name="android:strokeColor">
+            <gradient
+                android:startX="138"
+                android:startY="133"
+                android:endX="182"
+                android:endY="133"
+                android:type="linear">
+                <item android:offset="0" android:color="#FF2E93" />
+                <item android:offset="1" android:color="#00F0FF" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Astryx apex -->
+    <path android:pathData="M160,59 L181,105 L170.5,105 L160,80.5 L149.5,105 L139,105 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="160"
+                android:startY="59"
+                android:endX="160"
+                android:endY="105"
+                android:type="linear">
+                <item android:offset="0" android:color="#FFFFFF" />
+                <item android:offset="1" android:color="#99F6FF" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <path
+        android:pathData="M160,96.5 m-4.5,0 a4.5,4.5 0,1 1,9 0 a4.5,4.5 0,1 1,-9 0"
+        android:fillColor="#00F0FF" />
+</vector>

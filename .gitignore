@@ -1,0 +1,21 @@
+# Gradle & Android build artifacts
+.gradle/
+.kotlin/
+build/
+app/build/
+local.properties
+
+# Installer ADB tools local state (keep private ADB keys & caches out of git)
+tools/venv/
+tools/adbkey/
+tools/.cache/
+__pycache__/
+
+# OS / IDE / binaries & keys
+.DS_Store
+*.iml
+.idea/
+*.apk
+*.aab
+*.keystore
+*.jks

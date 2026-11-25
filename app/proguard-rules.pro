@@ -1,0 +1,2 @@
+-keep class com.astryxtv.installer.** { *; }
+-dontwarn java.lang.invoke.StringConcatFactory
